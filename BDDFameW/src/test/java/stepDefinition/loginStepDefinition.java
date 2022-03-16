@@ -24,9 +24,9 @@ public class loginStepDefinition {
 	
 	@When("^title of login page is facebook$")
 	public void title_of_login_page_is_facebook() {
-		String title=driver.getTitle();
-		System.out.println(title);
-		Assert.assertEquals("facebook", title);
+		String pagetitle=driver.getTitle();
+		System.out.println(pagetitle);
+		Assert.assertEquals("facebook", pagetitle);
 	}
 	
 	
@@ -48,7 +48,7 @@ public class loginStepDefinition {
 	public void user_is_on_home_page() {
 		String title=driver.getTitle();
 		System.out.println("Home page title::");
-		Assert.assertEquals("Facebook", title);
+		Assert.assertEquals("Facebook123", title);
 	}
 
 }
