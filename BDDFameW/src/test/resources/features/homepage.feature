@@ -1,6 +1,6 @@
 Feature: user can see the home page after login
 
-Scenario: facebook homepage scenario
+Scenario: facebook homepage scenario1
 
 Given User is on homepage
 When title of login page is facebook
