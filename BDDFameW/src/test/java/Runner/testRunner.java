@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="C:\\Users\\ADMIN\\eclipse-workspace\\BDDFameW\\src\\test\\resources\\features\\login.feature"
-		,glue= {"stepDefinition"}
+		,glue= {"stepDefinition"},monochrome= (true)//hey i have added this recently pls check it out is their any changes happens or not
 		
 		)
 
