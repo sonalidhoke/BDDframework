@@ -7,5 +7,6 @@ public class HomePageStepDefinition {
 	@Test
 	public void check() {
 		System.out.println("checking");
+		//changes added
 	}
 }
